@@ -14,6 +14,17 @@
 		9095764628ED997D00C37F32 /* DynIslandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095764528ED997D00C37F32 /* DynIslandTests.swift */; };
 		9095765028ED997D00C37F32 /* DynIslandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095764F28ED997D00C37F32 /* DynIslandUITests.swift */; };
 		9095765228ED997D00C37F32 /* DynIslandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095765128ED997D00C37F32 /* DynIslandUITestsLaunchTests.swift */; };
+		9095766528ED9E5400C37F32 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095766428ED9E5400C37F32 /* WidgetKit.framework */; };
+		9095766728ED9E5400C37F32 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095766628ED9E5400C37F32 /* SwiftUI.framework */; };
+		9095766A28ED9E5400C37F32 /* DynIslandWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095766928ED9E5400C37F32 /* DynIslandWidgetBundle.swift */; };
+		9095766C28ED9E5400C37F32 /* DynIslandWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095766B28ED9E5400C37F32 /* DynIslandWidgetLiveActivity.swift */; };
+		9095766E28ED9E5400C37F32 /* DynIslandWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095766D28ED9E5400C37F32 /* DynIslandWidget.swift */; };
+		9095767128ED9E5500C37F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9095767028ED9E5500C37F32 /* Assets.xcassets */; };
+		9095767328ED9E5500C37F32 /* DynIslandWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9095766F28ED9E5400C37F32 /* DynIslandWidget.intentdefinition */; };
+		9095767428ED9E5500C37F32 /* DynIslandWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9095766F28ED9E5400C37F32 /* DynIslandWidget.intentdefinition */; };
+		9095767728ED9E5500C37F32 /* DynIslandWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9095766228ED9E5400C37F32 /* DynIslandWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9095768728EDB43900C37F32 /* PizzaDeliveryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095768628EDB43900C37F32 /* PizzaDeliveryModel.swift */; };
+		9095768828EDB44200C37F32 /* PizzaDeliveryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095768628EDB43900C37F32 /* PizzaDeliveryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +42,28 @@
 			remoteGlobalIDString = 9095763028ED997C00C37F32;
 			remoteInfo = DynIsland;
 		};
+		9095767528ED9E5500C37F32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9095762928ED997C00C37F32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9095766128ED9E5400C37F32;
+			remoteInfo = DynIslandWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9095767B28ED9E5500C37F32 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9095767728ED9E5500C37F32 /* DynIslandWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9095763128ED997C00C37F32 /* DynIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +76,16 @@
 		9095764B28ED997D00C37F32 /* DynIslandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynIslandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9095764F28ED997D00C37F32 /* DynIslandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynIslandUITests.swift; sourceTree = "<group>"; };
 		9095765128ED997D00C37F32 /* DynIslandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynIslandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9095766228ED9E5400C37F32 /* DynIslandWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DynIslandWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9095766428ED9E5400C37F32 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9095766628ED9E5400C37F32 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9095766928ED9E5400C37F32 /* DynIslandWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynIslandWidgetBundle.swift; sourceTree = "<group>"; };
+		9095766B28ED9E5400C37F32 /* DynIslandWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynIslandWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		9095766D28ED9E5400C37F32 /* DynIslandWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynIslandWidget.swift; sourceTree = "<group>"; };
+		9095766F28ED9E5400C37F32 /* DynIslandWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DynIslandWidget.intentdefinition; sourceTree = "<group>"; };
+		9095767028ED9E5500C37F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9095767228ED9E5500C37F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9095768628EDB43900C37F32 /* PizzaDeliveryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +110,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9095765F28ED9E5400C37F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095766728ED9E5400C37F32 /* SwiftUI.framework in Frameworks */,
+				9095766528ED9E5400C37F32 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		9095762828ED997C00C37F32 = {
 			isa = PBXGroup;
 			children = (
+				9095767C28EDA59900C37F32 /* Models */,
 				9095763328ED997C00C37F32 /* DynIsland */,
 				9095764428ED997D00C37F32 /* DynIslandTests */,
 				9095764E28ED997D00C37F32 /* DynIslandUITests */,
+				9095766828ED9E5400C37F32 /* DynIslandWidget */,
+				9095766328ED9E5400C37F32 /* Frameworks */,
 				9095763228ED997C00C37F32 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +141,7 @@
 				9095763128ED997C00C37F32 /* DynIsland.app */,
 				9095764128ED997D00C37F32 /* DynIslandTests.xctest */,
 				9095764B28ED997D00C37F32 /* DynIslandUITests.xctest */,
+				9095766228ED9E5400C37F32 /* DynIslandWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +182,36 @@
 			path = DynIslandUITests;
 			sourceTree = "<group>";
 		};
+		9095766328ED9E5400C37F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9095766428ED9E5400C37F32 /* WidgetKit.framework */,
+				9095766628ED9E5400C37F32 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9095766828ED9E5400C37F32 /* DynIslandWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9095766928ED9E5400C37F32 /* DynIslandWidgetBundle.swift */,
+				9095766B28ED9E5400C37F32 /* DynIslandWidgetLiveActivity.swift */,
+				9095766D28ED9E5400C37F32 /* DynIslandWidget.swift */,
+				9095766F28ED9E5400C37F32 /* DynIslandWidget.intentdefinition */,
+				9095767028ED9E5500C37F32 /* Assets.xcassets */,
+				9095767228ED9E5500C37F32 /* Info.plist */,
+			);
+			path = DynIslandWidget;
+			sourceTree = "<group>";
+		};
+		9095767C28EDA59900C37F32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9095768628EDB43900C37F32 /* PizzaDeliveryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +222,12 @@
 				9095762D28ED997C00C37F32 /* Sources */,
 				9095762E28ED997C00C37F32 /* Frameworks */,
 				9095762F28ED997C00C37F32 /* Resources */,
+				9095767B28ED9E5500C37F32 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9095767628ED9E5500C37F32 /* PBXTargetDependency */,
 			);
 			name = DynIsland;
 			productName = DynIsland;
@@ -183,6 +270,23 @@
 			productReference = 9095764B28ED997D00C37F32 /* DynIslandUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		9095766128ED9E5400C37F32 /* DynIslandWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9095767828ED9E5500C37F32 /* Build configuration list for PBXNativeTarget "DynIslandWidgetExtension" */;
+			buildPhases = (
+				9095765E28ED9E5400C37F32 /* Sources */,
+				9095765F28ED9E5400C37F32 /* Frameworks */,
+				9095766028ED9E5400C37F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynIslandWidgetExtension;
+			productName = DynIslandWidgetExtension;
+			productReference = 9095766228ED9E5400C37F32 /* DynIslandWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +308,9 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 9095763028ED997C00C37F32;
 					};
+					9095766128ED9E5400C37F32 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = 9095762C28ED997C00C37F32 /* Build configuration list for PBXProject "DynIsland" */;
@@ -222,6 +329,7 @@
 				9095763028ED997C00C37F32 /* DynIsland */,
 				9095764028ED997D00C37F32 /* DynIslandTests */,
 				9095764A28ED997D00C37F32 /* DynIslandUITests */,
+				9095766128ED9E5400C37F32 /* DynIslandWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +358,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9095766028ED9E5400C37F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095767128ED9E5500C37F32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +375,8 @@
 			files = (
 				9095763728ED997C00C37F32 /* ContentView.swift in Sources */,
 				9095763528ED997C00C37F32 /* DynIslandApp.swift in Sources */,
+				9095768728EDB43900C37F32 /* PizzaDeliveryModel.swift in Sources */,
+				9095767428ED9E5500C37F32 /* DynIslandWidget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +397,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9095765E28ED9E5400C37F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095766E28ED9E5400C37F32 /* DynIslandWidget.swift in Sources */,
+				9095766A28ED9E5400C37F32 /* DynIslandWidgetBundle.swift in Sources */,
+				9095767328ED9E5500C37F32 /* DynIslandWidget.intentdefinition in Sources */,
+				9095768828EDB44200C37F32 /* PizzaDeliveryModel.swift in Sources */,
+				9095766C28ED9E5400C37F32 /* DynIslandWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +421,11 @@
 			isa = PBXTargetDependency;
 			target = 9095763028ED997C00C37F32 /* DynIsland */;
 			targetProxy = 9095764C28ED997D00C37F32 /* PBXContainerItemProxy */;
+		};
+		9095767628ED9E5500C37F32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9095766128ED9E5400C37F32 /* DynIslandWidgetExtension */;
+			targetProxy = 9095767528ED9E5500C37F32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,6 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -399,6 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -412,6 +549,7 @@
 		9095765628ED997D00C37F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +579,7 @@
 		9095765728ED997D00C37F32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +682,60 @@
 			};
 			name = Release;
 		};
+		9095767928ED9E5500C37F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93785KKLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynIslandWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynIslandWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sc18cd.DynIsland.DynIslandWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9095767A28ED9E5500C37F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93785KKLG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DynIslandWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynIslandWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sc18cd.DynIsland.DynIslandWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +771,15 @@
 			buildConfigurations = (
 				9095765C28ED997D00C37F32 /* Debug */,
 				9095765D28ED997D00C37F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9095767828ED9E5500C37F32 /* Build configuration list for PBXNativeTarget "DynIslandWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9095767928ED9E5500C37F32 /* Debug */,
+				9095767A28ED9E5500C37F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
